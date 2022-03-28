@@ -16,25 +16,40 @@
         compatible = "zmk,keymap";
 
         macros {
-            ZMK_MACRO(m_all,
-            bindings = <&kp LC(A)>;
-            )
+            m_all: m_all {
+                compatible = "zmk,behavior-macro";
+                label = "m_all";
+                #binding-cells = <0>;
+                bindings = <&kp Z &kp M &kp K>;
+            };
 
-            ZMK_MACRO(m_copy,
-            bindings = <&kp LC(C)>;
-            )
+            m_copy: m_copy {
+                compatible = "zmk,behavior-macro";
+                label = "m_copy";
+                #binding-cells = <0>;
+                bindings = <&kp LC(C)>;
+            };
 
-            ZMK_MACRO(m_paste,
-            bindings = <&kp LC(V)>;
-            )
+            m_paste: m_paste {
+                compatible = "zmk,behavior-macro";
+                label = "m_paste";
+                #binding-cells = <0>;
+                bindings = <&kp LC(V)>;
+            };
 
-            ZMK_MACRO(m_prev,
-            bindings = <&kp LS(LC(TAB))>;
-            )
+            m_prev: m_prev {
+                compatible = "zmk,behavior-macro";
+                label = "m_prev";
+                #binding-cells = <0>;
+                bindings = <&kp LS(LC(TAB))>;
+            };
 
-            ZMK_MACRO(m_forw,
-            bindings = <&kp LC(TAB)>;
-            )
+            m_forw: m_forw {
+                compatible = "zmk,behavior-macro";
+                label = "m_forw";
+                #binding-cells = <0>;
+                bindings = <&kp LC(TAB)>;
+            };
         };
 
         qwerty {
