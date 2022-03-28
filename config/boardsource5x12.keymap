@@ -17,23 +17,23 @@
         macros {
 
             ZMK_MACRO(m_all,
-            bindings = LC(A);
+            bindings = <LC(A)>;
             )
 
             ZMK_MACRO(m_copy,
-            bindings = LC(C);
+            bindings = <LC(C)>;
             )
 
             ZMK_MACRO(m_paste,
-            bindings = LC(V);
+            bindings = <LC(V)>;
             )
 
             ZMK_MACRO(m_prev,
-            bindings = LS(LC(TAB));
+            bindings = <LS(LC(TAB))>;
             )
 
             ZMK_MACRO(m_forw,
-            bindings = LC(TAB);
+            bindings = <LC(TAB)>;
             )
         };
 
