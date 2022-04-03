@@ -38,7 +38,7 @@
             // |  BSPC |  A   |  R   |  S   |  T   |  D   |   H   |   N   |  E   |  I   |   O   |   '   |
             // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   K   |   M   |  ,   |  .   |   /   | ENTER |
             // | LCTRL | WIN  | LALT | ESC  | LOWR | SPACE| SPACE |  RAIS | LARW | DARW | UARW  | RARW  |
-            bindings = <
+           bindings = <
                 &kp LC(A)  &kp LC(C)    &kp LC(V)   &kp LS(LC(TAB)) &kp LC(TAB) &none       &none       &none   &none       &none       &none       &none
                 &kp TAB    &kp Q        &kp W       &kp F           &kp P       &kp G       &kp J       &kp L   &kp U       &kp Y       &kp SEMI    &kp BSPC
                 &kp BSPC   &kp A        &kp R       &kp S           &kp T       &kp D       &kp H       &kp N   &kp E       &kp I       &kp O       &kp SQT
