@@ -82,9 +82,9 @@
         flock_layer {
             // ----------------------------------------------------------------------------------------------
             // | Bootldr| VccOff | VccOn  |        |        |        |      |      |      |     |     |      |
-            // | DF(col)|BT_SEL 0|BT_SEL 1|BT_SEL 2|BT_SEL 3|BT_SEL 4|BT_PRV|BT_NXT|BT_CLR|     |     |      |
+            // |        |BT_SEL 0|BT_SEL 1|BT_SEL 2|BT_SEL 3|BT_SEL 4|BT_PRV|BT_NXT|BT_CLR|     |     |      |
+            // | DF(col)|        |        |        |        |        |      |      |      |     |     |      |
             // | DF(qwe)|        |        |        |        |        |      |      |      |     |     |      |
-            // |        |        |        |        |        |        |      |      |      |     |     |      |
             // |        |        |        |        |        |        |      |      |      |     |     |      |
             bindings = <
                 &bootloader  &ext_power EP_OFF &ext_power EP_ON &trans       &trans       &trans       &trans     &trans     &trans     &trans  &trans  &trans
